@@ -1,0 +1,39 @@
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs/
+*.log
+
+# dotenv environment
+.env
+.env.local
+.env.*.local
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-compose.override.yml
+*.pid
+
+# IDEs
+.vscode/
+.idea/
+
+# Build artifacts
+dist/
+build/
+
+# Coverage
+coverage/
+
+# MongoDB database files (if accidentally dumped)
+dump/
+
+# Misc
+*.tgz
